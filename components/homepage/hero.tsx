@@ -39,7 +39,7 @@ const Hero = () => {
 
 					<FlexRow className="gap-10">
 						<div className="flex flex-col items-center shadow-3xl rounded-md border-2 border-black bg-white py-8 px-10 w-1/3">
-							<h3 className="text-2xl font-bold text-black mb-10">
+							<h3 className="text-2xl font-bold text-red-700 mb-10">
 								Functioneel design
 							</h3>
 							<p className="text-black text-justify">
@@ -52,7 +52,7 @@ const Hero = () => {
 						</div>
 
 						<div className="flex flex-col items-center shadow-3xl rounded-md border-2 border-black bg-white py-8 px-10 w-1/3">
-							<h3 className="text-2xl font-bold  text-black mb-10">
+							<h3 className="text-2xl font-bold  text-red-700 mb-10">
 								Klantegerichte teksten
 							</h3>
 							<p className="text-black text-justify">
@@ -65,7 +65,7 @@ const Hero = () => {
 						</div>
 
 						<div className="flex flex-col items-center rounded-md border-2 border-black bg-white shadow-3xl py-8 px-10 w-1/3">
-							<h3 className="text-2xl font-bold text-black mb-10">
+							<h3 className="text-2xl font-bold text-red-700 mb-10">
 								Gestructureerde website
 							</h3>
 							<p className="text-black text-justify">
@@ -170,7 +170,7 @@ const Hero = () => {
 				</Container>
 			</section>
 
-			<section className="bg-red-100">
+			<section className="bg-red-100 py-20">
 				<Container>
 					<FlexRow className="justify-center mb-10">
 						<h2 className="text-center text-4xl font-bold text-black">
@@ -250,7 +250,7 @@ const Hero = () => {
 					</div>
 				</Container>
 			</section>
-			<section className="bg-red-100">
+			<section className="bg-red-100 py-20">
 				<Container>
 					<FlexRow className="justify-center mb-10">
 						<h2 className="text-center text-4xl font-bold text-black">
@@ -332,7 +332,7 @@ const Hero = () => {
 				</Container>
 			</section>
 
-			<section>
+			<section className="py-20">
 				<Container>
 					<FlexRow className="justify-center mb-10">
 						<h2 className="text-center text-4xl font-bold text-black">
@@ -399,7 +399,7 @@ const Hero = () => {
 				</Container>
 			</section>
 
-			<section className="bg-red-100">
+			<section className="bg-red-100 py-20">
 				<Container>
 					<FlexRow className="justify-center mb-10">
 						<h2 className="text-center text-4xl font-bold text-black">
@@ -457,7 +457,7 @@ const Hero = () => {
 									alt=""
 									width={500}
 									height={500}
-									className="z-10 relative"
+									className="z-10 relative grayscale"
 								/>
 							</FlexColumn>
 							<FlexColumn className="w-2/3 content-center relative px-10 py-8">
