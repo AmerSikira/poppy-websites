@@ -16,6 +16,9 @@ const config: Config = {
 			boxShadow: {
 				"3xl": "3px 3px 0px 0px rgba(0, 0, 0, 1)",
 			},
+			minHeight: {
+				half: "50vh",
+			},
 		},
 	},
 	plugins: [],
