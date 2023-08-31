@@ -529,12 +529,16 @@ const Hero = () => {
 					</FlexColumn>
 
 					<FlexRow className="text-white gap-20">
-						<div>
-							Gebruiksvriendelijke websites met tijdloze designs
-						</div>
-						<div>Leuke teksten waarbij de klant centraal staat</div>
-
-						<div>Duidelijke communicatie van start tot einde</div>
+						<ul className="list-disc flex gap-20">
+							<li>
+								Gebruiksvriendelijke websites met tijdloze
+								designs
+							</li>
+							<li>
+								Leuke teksten waarbij de klant centraal staat
+							</li>
+							<li>Duidelijke communicatie van start tot einde</li>
+						</ul>
 					</FlexRow>
 
 					<FlexRow className="justify-center mt-10">
