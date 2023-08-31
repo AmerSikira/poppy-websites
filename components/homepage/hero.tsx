@@ -469,11 +469,11 @@ const Hero = () => {
 									alt="Pattern from the logo"
 								/>
 								<Image
-									src="/kjell.png"
+									src="/edin.png"
 									alt=""
 									width={500}
 									height={500}
-									className="z-10 relative"
+									className="z-10 relative grayscale"
 								/>
 							</FlexColumn>
 						</FlexRow>
