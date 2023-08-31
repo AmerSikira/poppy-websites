@@ -87,9 +87,9 @@ const Hero = () => {
 						<H2>Waarom kiezen voor Poppy Websites?</H2>
 					</FlexRow>
 				</Container>
-				<Container className="flex gap-10 my-20">
+				<Container className="flex gap-10 my-15">
 					<FlexColumn className="w-1/2 justify-center">
-						<H3>Team van drie experts</H3>
+						<H3 className="mb-10">Team van drie experts</H3>
 
 						<P>
 							De meeste webbureaus zijn ofwel heel technisch ofwel
@@ -113,7 +113,7 @@ const Hero = () => {
 					</FlexRow>
 				</Container>
 
-				<Container className="flex gap-10 my-20">
+				<Container className="flex gap-10 my-15">
 					<FlexRow className="w-1/2 justify-end">
 						<Image
 							alt=""
@@ -124,7 +124,7 @@ const Hero = () => {
 					</FlexRow>
 
 					<FlexColumn className="w-1/2 justify-center">
-						<H3>Geen verborgen kosten</H3>
+						<H3 className="mb-10">Geen verborgen kosten</H3>
 
 						<P>
 							Aan een website hangen twee kosten vast: de kosten
@@ -135,9 +135,9 @@ const Hero = () => {
 						</P>
 					</FlexColumn>
 				</Container>
-				<Container className="flex gap-10 my-20">
+				<Container className="flex gap-10 my-15">
 					<FlexColumn className="w-1/2 justify-center">
-						<H3>Gebruiksvriendelijke websites</H3>
+						<H3 className="mb-10">Gebruiksvriendelijke websites</H3>
 
 						<P>
 							De belangrijkste taak van jouw website is niet om te
@@ -244,12 +244,12 @@ const Hero = () => {
 				<Container>
 					<FlexRow>
 						<FlexColumn className="w-1/2 justify-center">
-							<FlexRow>
+							<FlexRow className="mb-10">
 								<div className="rounded-full bg-red-700 text-white w-[50px] h-[50px] shrink-0 flex items-center justify-center text-2xl">
 									1
 								</div>
 								<FlexColumn className="ml-10">
-									<H3>Wensen bespreken</H3>
+									<H3 className="mb-2">Wensen bespreken</H3>
 									<P>
 										We komen samen om jou te leren kennen,
 										de noden van jouw klanten te bespreken
@@ -259,12 +259,14 @@ const Hero = () => {
 								</FlexColumn>
 							</FlexRow>
 
-							<FlexRow>
+							<FlexRow className="mb-10">
 								<div className="rounded-full bg-red-700 text-white w-[50px] h-[50px] shrink-0 flex items-center justify-center text-2xl">
 									2
 								</div>
 								<FlexColumn className="ml-10">
-									<H3>Voorstel overleggen</H3>
+									<H3 className="mb-2">
+										Voorstel overleggen
+									</H3>
 									<P>
 										Zodra we van jouw de nodige informatie
 										ontvangen hebben, gaan we aan de slag.
@@ -280,7 +282,7 @@ const Hero = () => {
 									3
 								</div>
 								<FlexColumn className="ml-10">
-									<H3>Website afwerken</H3>
+									<H3 className="mb-2">Website afwerken</H3>
 									<P>
 										Als we vlot feedback van jou ontvangen,
 										kunnen we de website snel afwerken en
