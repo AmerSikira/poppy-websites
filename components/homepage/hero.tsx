@@ -87,7 +87,7 @@ const Hero = () => {
 						<H2>Waarom kiezen voor Poppy Websites?</H2>
 					</FlexRow>
 				</Container>
-				<Container className="flex gap-10 min-h-half my-20">
+				<Container className="flex gap-10 my-20">
 					<FlexColumn className="w-1/2 justify-center">
 						<H3>Team van drie experts</H3>
 
@@ -113,7 +113,7 @@ const Hero = () => {
 					</FlexRow>
 				</Container>
 
-				<Container className="flex gap-10 min-h-half my-20">
+				<Container className="flex gap-10 my-20">
 					<FlexRow className="w-1/2 justify-end">
 						<Image
 							alt=""
@@ -135,7 +135,7 @@ const Hero = () => {
 						</P>
 					</FlexColumn>
 				</Container>
-				<Container className="flex gap-10 min-h-half my-20">
+				<Container className="flex gap-10 my-20">
 					<FlexColumn className="w-1/2 justify-center">
 						<H3>Gebruiksvriendelijke websites</H3>
 
