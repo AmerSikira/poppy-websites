@@ -85,13 +85,13 @@ const Experts = () => {
 						<FlexColumn className="w-full md:w-2/3 content-center relative px-10 py-8">
 							<H3>Edin Bjelopoljak</H3>
 							<P className="mt-10" align="text-justify">
-								Edin werkt al jaren samen met Amer als creatieve
-								partner. Naast ervaring als marketing/
-								economisch consultant voor startups heeft hij
-								een fijn oog voor design. Dankzij zijn creatieve
-								mix van marketing en strategisch design bouwen
-								we keer op keer websites die positief opvallen
-								omwille van hun perfectie.
+								Edin werkt al jaren samen met Amer als
+								creatievepartner. Naast ervaring als
+								marketing/economisch consultant voor startups
+								heeft hij een fijn oog voor design. Dankzij zijn
+								creatieve mix van marketing en strategisch
+								design bouwen we keer op keer websites die
+								positief opvallen omwille van hun perfectie.
 							</P>
 						</FlexColumn>
 

@@ -21,7 +21,11 @@ const LastCTA = () => {
 					</P>
 				</FlexColumn>
 
-				<FlexRow className="text-white gap-20">
+				<FlexRow className="justify-center mt-10">
+					<Cta>Bespreek de mogelijkheden</Cta>
+				</FlexRow>
+
+				<FlexRow className="text-white gap-20 mt-10">
 					<ul className="md:list-disc flex gap-5 md:gap-20 text-center md:text-left flex-col md:flex-row">
 						<li>
 							Gebruiksvriendelijke websites met tijdloze designs
@@ -29,10 +33,6 @@ const LastCTA = () => {
 						<li>Leuke teksten waarbij de klant centraal staat</li>
 						<li>Duidelijke communicatie van start tot einde</li>
 					</ul>
-				</FlexRow>
-
-				<FlexRow className="justify-center mt-10">
-					<Cta>Bespreek de mogelijkheden</Cta>
 				</FlexRow>
 			</Container>
 		</HomepageSection>
