@@ -1,5 +1,5 @@
 const H1 = ({
-	className = "text-6xl font-bold  text-center text-black",
+	className = "text-4xl md:text-6xl font-bold  text-center text-black",
 	children,
 }: {
 	className?: string;

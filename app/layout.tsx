@@ -3,8 +3,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Rubik } from "next/font/google";
 import Logo from "@/components/header/logo";
-import Menu from "@/components/menu/menu";
-import MenuItem from "@/components/menu/menu-item";
+import Navigation from "@/components/header/navigation";
 
 const rubik = Rubik({ subsets: ["latin"] });
 
@@ -23,13 +22,7 @@ export default function RootLayout({
 			<body className={rubik.className}>
 				<Header>
 					<Logo />
-					<Menu>
-						<MenuItem text="Home" href="/" />
-						<MenuItem text="Why us?" href="/" />
-						<MenuItem text="Projects" href="/" />
-						<MenuItem text="Testimonials" href="/" />
-						<MenuItem text="Blog" href="/" />
-					</Menu>
+					<Navigation />
 				</Header>
 				{children}
 			</body>

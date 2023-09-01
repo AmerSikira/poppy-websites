@@ -4,13 +4,15 @@ import Link from "next/link";
 const CustomLink = ({
 	href,
 	children,
+	className = "",
 }: {
 	href: string;
 	children: React.ReactNode;
+	className?: string;
 }) => {
 	return (
 		<Link
-			className="text-red-700 hover:text-red-900 group transition duration-300 inline-block"
+			className={`text-red-700 hover:text-red-900 group transition duration-300 inline-block ${className}`}
 			href={href}
 		>
 			{children}
