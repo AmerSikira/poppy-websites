@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({
 	children,
-	className,
+	className = "",
 	width = "w-full md:w-1/3",
 }: {
 	children: React.ReactNode;

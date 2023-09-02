@@ -7,7 +7,7 @@ const H3 = ({
 	color?: string;
 	children: React.ReactNode;
 }) => {
-	const classNames = `text-2xl md:text-4xl font-bold ${className} ${color}`;
+	const classNames = `text-2xl md:text-4xl font-bold mb-3 md:mb-5 ${className} ${color}`;
 	return <h3 className={classNames}>{children}</h3>;
 };
 

@@ -17,7 +17,9 @@ const Services = () => {
 
 				<FlexRow className="gap-10">
 					<Card>
-						<H3>Functioneel design</H3>
+						<H3 className="w-full text-center">
+							Functioneel design
+						</H3>
 						<P align="text-justify">
 							Onze website ontwerper zorgt voor een mix tussen
 							<strong> trendy en tijdloos design</strong>. Zo ziet
@@ -27,7 +29,9 @@ const Services = () => {
 					</Card>
 
 					<Card>
-						<H3>Klantegerichte teksten</H3>
+						<H3 className="w-full text-center">
+							Klantegerichte teksten
+						</H3>
 						<P align="text-justify">
 							De meeste webbureaus geven geen of slecht advies
 							over webteksten. Poppy Websites heeft een ervaren
@@ -40,7 +44,9 @@ const Services = () => {
 					</Card>
 
 					<Card>
-						<H3>Gestructureerde website</H3>
+						<H3 className="w-full text-center">
+							Gestructureerde website
+						</H3>
 						<P align="text-justify">
 							Wij helpen je niet alleen met het design maar ook
 							met de structuur en de inhoud van jouw website zodat

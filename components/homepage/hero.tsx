@@ -14,14 +14,17 @@ const Hero = () => {
 					<P className="uppercase text-sm font-bold">
 						Webdesign en webteksten
 					</P>
-					<H1>Grootse websites voor kleine bedrijven</H1>
+					<H1>
+						Grootse websites <br className="hidden lg:inline" />
+						voor kleine bedrijven
+					</H1>
 					<Subheading>
 						Krijg een prachtige website op maat van jouw doelgroep.
 						Geen gedoe. Snel klaar.
 					</Subheading>
 					<Cta>Bespreek de mogelijkheden</Cta>
 
-					<FlexRow className="items-center content-center mt-10">
+					<FlexRow className="items-center content-center mt-10 ">
 						<FlexRow className="items-center content-center">
 							<Image
 								alt="checkmark"
@@ -29,31 +32,31 @@ const Hero = () => {
 								height={20}
 								width={20}
 							/>
-							<P className="ml-2 uppercase text-sm font-bold">
+							<P className="ml-0 md:ml-2 uppercase text-sm font-bold">
 								Geen verborgen kosten
 							</P>
 						</FlexRow>
 
-						<FlexRow className=" items-center content-center mt-5 sm:mt-0 sm:ml-5">
+						<FlexRow className=" items-center content-center mt-1 sm:mt-0 sm:ml-5">
 							<Image
 								alt="checkmark"
 								src="/check.svg"
 								height={17}
 								width={17}
 							/>
-							<P className="ml-2 uppercase text-sm font-bold">
+							<P className="ml-0 md:ml-2 uppercase text-sm font-bold">
 								Gebruiksvriendelijk design
 							</P>
 						</FlexRow>
 
-						<FlexRow className="items-center content-center mt-5 sm:mt-0 sm:ml-5">
+						<FlexRow className="items-center content-center mt-1 sm:mt-0 sm:ml-5">
 							<Image
 								alt="checkmark"
 								src="/check.svg"
 								height={17}
 								width={17}
 							/>
-							<P className="ml-2 uppercase text-sm font-bold">
+							<P className="ml-0 md:ml-2 uppercase text-sm font-bold">
 								Gemaakt door drie experts
 							</P>
 						</FlexRow>
