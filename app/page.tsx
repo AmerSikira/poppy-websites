@@ -7,6 +7,17 @@ import Steps from "@/components/homepage/steps";
 import Experts from "@/components/homepage/experts";
 import LastCTA from "@/components/homepage/last-cta";
 
+import { Metadata } from "next";
+
+export const metadata = {
+	title: "Poppy Websites - Webdesign en webteksten",
+	description: "Grootse websites voor kleine bedrijven",
+	openGraph: {
+		title: "Poppy Websites - Webdesign en webteksten",
+		description: "Grootse websites voor kleine bedrijven",
+	},
+};
+
 export default function Home() {
 	return (
 		<>
