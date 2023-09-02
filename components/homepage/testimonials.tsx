@@ -2,10 +2,8 @@ import HomepageSection from "../layout/homepage-section";
 import Container from "../layout/container";
 import FlexRow from "../layout/flex-row";
 import H2 from "../ui/heading/h2";
-import Card from "../ui/card/card";
-import H3 from "../ui/heading/h3";
-import P from "../ui/text/p";
-import CustomLink from "../ui/link";
+import Testimonial from "../ui/card/testimonial";
+import SecondaryCta from "../ui/button/secondary-cta";
 
 const Testimonials = () => {
 	return (
@@ -16,69 +14,43 @@ const Testimonials = () => {
 				</FlexRow>
 			</Container>
 			<Container className="flex gap-10 flex-col md:flex-row">
-				<Card>
-					<FlexRow className="w-full items-center content-center relative">
-						<div className="rounded-full overflow-hidden border-2 border-black shadow-3xl">
-							<img
-								className="rounded-full w-12 object-cover h-12"
-								src="/image.avif"
-							/>
-						</div>
-						<H3 className="ml-5">Jurgen Gaalen</H3>
-					</FlexRow>
-					<P className="mt-10" align="text-justify">
-						Websites voor kleine bedrijven zien er snel oud uit.
-						Onze website ontwerper zorgt altijd voor een mix tussen
-						trendy en tijdloos design zodat je website er binnen
-						vijf jaar nog altijd moderner uitziet dan die van je
-						concurrentie.
-					</P>
-					<P className="w-full mt-3" align="text-left">
-						<CustomLink href="#">Inspect RGH GmbH</CustomLink>
-					</P>
-				</Card>
+				<Testimonial
+					image="/yochen.jpeg"
+					name="Yochen Dewancker"
+					title="Eigenaar MY Own Products"
+					text="Supertevreden met de website. Amer en Kjell hebben al
+						mijn verwachtigen overtroffen. De tafels komen veel
+						beter tot hun recht op de nieuwe website"
+					link="https://myownproducts.be"
+					linkText="My OWN Products"
+				/>
 
-				<Card>
-					<FlexRow className="w-full items-center content-center relative">
-						<div className="rounded-full overflow-hidden border-2 border-black shadow-3xl">
-							<img
-								className="rounded-full w-12 object-cover h-12"
-								src="/image.avif"
-							/>
-						</div>
-						<H3 className="ml-5">Alex de Bruyne</H3>
-					</FlexRow>
-					<P className="mt-10" align="text-justify">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Omnis ipsa aliquid quas sed id eligendi nulla alias nisi
-						reiciendis maxime quidem, aliquam libero dolorum
-						expedita corrupti voluptas. Qui, est odit.
-					</P>
-					<P className="w-full mt-3" align="text-left">
-						<CustomLink href="#">Mini Onion</CustomLink>
-					</P>
-				</Card>
+				<Testimonial
+					image="/ajdin.jpeg"
+					name="Ajdin Lokvancic"
+					title="Oprichter CloudNovi"
+					text="In een competitieve markt is het belangrijk om een
+						gebruiksvriendelijke website te hebben. Daarom koos ik
+						voor Poppy Websites."
+					link="https://cloudnovi.com/"
+					linkText="CloudNovi"
+				/>
 
-				<Card>
-					<FlexRow className="w-full items-center content-center relative">
-						<div className="rounded-full overflow-hidden border-2 border-black shadow-3xl">
-							<img
-								className="rounded-full w-12 object-cover h-12"
-								src="/image.avif"
-							/>
-						</div>
-						<H3 className="ml-5">Maya Schmitt</H3>
-					</FlexRow>
-					<P className="mt-10" align="text-justify">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Omnis ipsa aliquid quas sed id eligendi nulla alias nisi
-						reiciendis maxime quidem, aliquam libero dolorum
-						expedita corrupti voluptas. Qui, est odit.
-					</P>
-					<P className="w-full mt-3" align="text-left">
-						<CustomLink href="#">Gluck ist richt</CustomLink>
-					</P>
-				</Card>
+				<Testimonial
+					image="/kjell.png"
+					name="Kjell Vandevyvere"
+					title="Mede-oprichter Poppy Websites"
+					text="Er zijn enkele goede websiteontwerpers in Ieper maar ze
+						zitten niet op het niveau van de grote bureaus waar ik
+						normaal mee werk. Dat verandert nu."
+					link="https://kjellvandevyvere.be"
+					linkText="kjellvandevyvere.be"
+				/>
+			</Container>
+			<Container>
+				<FlexRow className="justify-center mt-10">
+					<SecondaryCta>Bespreek de mogelijkheden</SecondaryCta>
+				</FlexRow>
 			</Container>
 		</HomepageSection>
 	);

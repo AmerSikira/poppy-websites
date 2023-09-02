@@ -42,9 +42,9 @@ const Steps = () => {
 								<H3 className="mb-2">Voorstel overleggen</H3>
 								<P>
 									Zodra we van jouw de nodige informatie
-									ontvangen hebben, gaan we aan de slag.
-									Binnen de twee weken ontvang je een voorstel
-									voor de structuur, het ontwerp en de tekst.
+									ontvangen, gaan we aan de slag. Binnen de
+									twee weken ontvang je een voorstel voor de
+									structuur, het ontwerp en de tekst.
 								</P>
 							</FlexColumn>
 						</FlexRow>
@@ -56,10 +56,10 @@ const Steps = () => {
 							<FlexColumn className="ml-10">
 								<H3 className="mb-2">Website afwerken</H3>
 								<P>
-									Als we vlot feedback van jou ontvangen,
-									kunnen we de website snel afwerken en
-									lanceren. Als er een goede communicatie is,
-									duurt het volledige proces maximaal 4 weken.
+									Als we vlot feedback ontvangen, kunnen we de
+									website snel afwerken en lanceren. Als er
+									een goede communicatie is, duurt het bij
+									normale websites slechts zes weken.
 								</P>
 							</FlexColumn>
 						</FlexRow>

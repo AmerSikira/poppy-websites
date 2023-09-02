@@ -9,7 +9,7 @@ import SecondaryCta from "../ui/button/secondary-cta";
 
 const Services = () => {
 	return (
-		<HomepageSection>
+		<HomepageSection id="diensten">
 			<Container>
 				<FlexRow className="justify-center mb-10">
 					<H2>Betere websites voor hetzelfde geld</H2>
@@ -19,39 +19,39 @@ const Services = () => {
 					<Card>
 						<H3>Functioneel design</H3>
 						<P align="text-justify">
-							Websites voor kleine bedrijven zien er snel oud uit.
-							Onze website ontwerper zorgt altijd voor een mix
-							tussen trendy en tijdloos design zodat je website er
-							binnen vijf jaar nog altijd moderner uitziet dan die
-							van je concurrentie.
+							Onze website ontwerper zorgt voor een mix tussen
+							<strong> trendy en tijdloos design</strong>. Zo ziet
+							je website er binnen vijf jaar nog steeds moderner
+							uit dan die van je concurrentie.
 						</P>
 					</Card>
 
 					<Card>
 						<H3>Klantegerichte teksten</H3>
 						<P align="text-justify">
-							Websites voor kleine bedrijven zien er snel oud uit.
-							Onze website ontwerper zorgt altijd voor een mix
-							tussen trendy en tijdloos design zodat je website er
-							binnen vijf jaar nog altijd moderner uitziet dan die
-							van je concurrentie.
+							De meeste webbureaus geven geen of slecht advies
+							over webteksten. Poppy Websites heeft een ervaren
+							copywriter. Zo krijgt
+							<strong>
+								{" "}
+								tekst evenveel aandacht als design.
+							</strong>
 						</P>
 					</Card>
 
 					<Card>
 						<H3>Gestructureerde website</H3>
 						<P align="text-justify">
-							Websites voor kleine bedrijven zien er snel oud uit.
-							Onze website ontwerper zorgt altijd voor een mix
-							tussen trendy en tijdloos design zodat je website er
-							binnen vijf jaar nog altijd moderner uitziet dan die
-							van je concurrentie.
+							Wij helpen je niet alleen met het design maar ook
+							met de structuur en de inhoud van jouw website zodat
+							klanten kunnen genieten van een{" "}
+							<strong>vlotte gebruikerservaring</strong>.
 						</P>
 					</Card>
 				</FlexRow>
 
 				<FlexRow className="justify-center mt-10">
-					<SecondaryCta>Meer over web design</SecondaryCta>
+					<SecondaryCta>Bespreek de mogelijkheden</SecondaryCta>
 				</FlexRow>
 			</Container>
 		</HomepageSection>

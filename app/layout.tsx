@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Rubik } from "next/font/google";
 import Logo from "@/components/header/logo";
 import Navigation from "@/components/header/navigation";
+import Script from "next/script";
 
 const rubik = Rubik({ subsets: ["latin"] });
 
@@ -19,6 +20,16 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
+			<Script src="https://www.googletagmanager.com/gtag/js?id=G-LZJZSFL7PD" />
+			<Script id="google-analytics">
+				{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-LZJZSFL7PD');
+        `}
+			</Script>
 			<body className={rubik.className}>
 				<Header>
 					<Logo />

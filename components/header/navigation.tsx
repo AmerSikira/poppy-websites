@@ -4,11 +4,9 @@ import MenuItem from "@/components/menu/menu-item";
 const Navigation = () => {
 	return (
 		<Menu>
-			<MenuItem text="Home" href="/" />
-			<MenuItem text="Why us?" href="/" />
-			<MenuItem text="Projects" href="/" />
-			<MenuItem text="Testimonials" href="/" />
-			<MenuItem text="Blog" href="/" />
+			<MenuItem text="Over ons" href="/#over-ons" />
+			<MenuItem text="Diensten" href="/#diensten" />
+			<MenuItem text="Contact" href="/#contact" />
 		</Menu>
 	);
 };

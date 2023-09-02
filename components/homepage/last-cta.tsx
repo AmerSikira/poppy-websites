@@ -6,6 +6,7 @@ import H2 from "../ui/heading/h2";
 import P from "../ui/text/p";
 import FlexRow from "../layout/flex-row";
 import Cta from "../ui/button/cta";
+import Image from "next/image";
 
 const LastCTA = () => {
 	return (
@@ -25,14 +26,45 @@ const LastCTA = () => {
 					<Cta>Bespreek de mogelijkheden</Cta>
 				</FlexRow>
 
-				<FlexRow className="text-white gap-20 mt-10">
-					<ul className="md:list-disc flex gap-5 md:gap-20 text-center md:text-left flex-col md:flex-row">
-						<li>
+				<FlexRow className="items-center content-center mt-10">
+					<FlexRow className="items-center content-center">
+						<Image
+							alt="checkmark"
+							src="/check.svg"
+							height={20}
+							width={20}
+							className="invert"
+						/>
+						<P className="ml-2 uppercase text-sm font-bold text-white">
 							Gebruiksvriendelijke websites met tijdloze designs
-						</li>
-						<li>Leuke teksten waarbij de klant centraal staat</li>
-						<li>Duidelijke communicatie van start tot einde</li>
-					</ul>
+						</P>
+					</FlexRow>
+
+					<FlexRow className=" items-center content-center mt-5 sm:mt-0 sm:ml-5">
+						<Image
+							alt="checkmark"
+							src="/check.svg"
+							height={17}
+							width={17}
+							className="invert"
+						/>
+						<P className="ml-2 uppercase text-sm font-bold text-white">
+							Leuke teksten waarbij de klant centraal staat
+						</P>
+					</FlexRow>
+
+					<FlexRow className="items-center content-center mt-5 sm:mt-0 sm:ml-5">
+						<Image
+							alt="checkmark"
+							src="/check.svg"
+							height={17}
+							width={17}
+							className="invert"
+						/>
+						<P className="ml-2 uppercase text-sm font-bold text-white">
+							Duidelijke communicatie van start tot einde
+						</P>
+					</FlexRow>
 				</FlexRow>
 			</Container>
 		</HomepageSection>

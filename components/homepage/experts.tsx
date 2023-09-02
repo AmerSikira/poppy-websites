@@ -22,11 +22,15 @@ const Experts = () => {
 						<FlexColumn className="w-full md:w-2/3 content-center relative px-10 py-8">
 							<H3>Kjell Vandevyvere</H3>
 							<P className="mt-10" align="text-justify">
-								Wil je meer spreken over je bedrijf via blogs of
-								sociale media? Een goede freelancer is helaas
-								onbetaalbaar voor kleine bedrijven. Wij helpen
-								je graag op weg met SEO, ideëen en structuur
-								zodat je het zelf kan aanpakken.
+								Kjell verzorgt je teksten. Met meer dan vijf
+								jaar ervaring als content marketeer en
+								copywriter weet hij hoe je overtuigende teksten
+								schrijft. Zijn passie ligt bij teksten voor
+								websites. Hij schreef onder andere voor
+								Accountable, Winwinner, Xenn en tientallen
+								internationale bedrijven. Nu wil hij graag zijn
+								kennis delen om lokale bedrijven uit zijn
+								geliefde Ieper vooruit te helpen.
 							</P>
 						</FlexColumn>
 
@@ -75,8 +79,7 @@ const Experts = () => {
 								belangrijke banken. Je mag er dus zeker van zijn
 								dat jouw website in goede handen is. Amer’s zus
 								woont trouwens al lang in België en ook hij komt
-								graag onze chocolade, wafels en Franse frietjes
-								proeven.
+								graag onze chocolade, wafels en bier proeven.
 							</P>
 						</FlexColumn>
 					</FlexRow>
@@ -85,13 +88,13 @@ const Experts = () => {
 						<FlexColumn className="w-full md:w-2/3 content-center relative px-10 py-8">
 							<H3>Edin Bjelopoljak</H3>
 							<P className="mt-10" align="text-justify">
-								Edin werkt al jaren samen met Amer als
-								creatievepartner. Naast ervaring als
-								marketing/economisch consultant voor startups
-								heeft hij een fijn oog voor design. Dankzij zijn
-								creatieve mix van marketing en strategisch
-								design bouwen we keer op keer websites die
-								positief opvallen omwille van hun perfectie.
+								Edin werkt al jaren samen met Amer als creatieve
+								partner. Naast ervaring als marketing/
+								economisch consultant voor startups heeft hij
+								een fijn oog voor design. Dankzij zijn creatieve
+								mix van marketing en strategisch design bouwen
+								we keer op keer websites die positief opvallen
+								omwille van hun perfectie.
 							</P>
 						</FlexColumn>
 

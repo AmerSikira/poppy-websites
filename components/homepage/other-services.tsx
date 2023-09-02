@@ -22,11 +22,11 @@ const OtherServices = () => {
 						<H3>Online reputatie optimaliseren</H3>
 					</FlexRow>
 					<P className="mt-10" align="text-justify">
-						Online zijn als bedrijf is meer dan een goede website
-						hebben. Hoe zit het met je Google Bedrijfsprofiel? Heb
-						je een pagina op Trip Advisor of Trustpilot? Wij zorgen
-						ervoor dat al je profielen compleet zijn en helpen je
-						omgaan met (onterecht) slechte reviews.
+						Je online reputatie stopt niet bij je website. Hoe zit
+						het met je Google Bedrijfsprofiel? Heb je een pagina op
+						Trip Advisor of Trustpilot? Wij zorgen voor complete
+						profielen en helpen je omgaan met (onterecht) slechte
+						reviews.
 					</P>
 					<P className="w-full mt-3">
 						<CustomLink href="#">Meer info</CustomLink>
@@ -38,11 +38,11 @@ const OtherServices = () => {
 						<H3>Design en templates</H3>
 					</FlexRow>
 					<P className="mt-10" align="text-justify">
-						Wil je een nieuw logo en templates die passen bij je
-						nieuwe website? We kunnen je helpen met sjablonen voor
+						Nieuw logo nodig? Of wil je templates die passen bij je
+						nieuwe website? We helpen je met sjablonen voor
 						presentaties, sociale media en allerlei andere online
 						communicatie. Zo zorg je voor een prachtig geheel op
-						alle online kanalen.
+						alle kanalen.
 					</P>
 					<P className="w-full mt-3">
 						<CustomLink href="#">Meer info</CustomLink>
@@ -58,8 +58,8 @@ const OtherServices = () => {
 					<P className="mt-10" align="text-justify">
 						Wil je meer spreken over je bedrijf via blogs of sociale
 						media? Een goede freelancer is helaas onbetaalbaar voor
-						kleine bedrijven. Wij helpen je graag op weg met SEO,
-						ideëen en structuur zodat je het zelf kan aanpakken.
+						kleine bedrijven. Wij helpen je op weg met SEO, ideëen
+						en structuur zodat je het zelf kan aanpakken.
 					</P>
 					<P className="w-full mt-3">
 						<CustomLink href="#">Meer info</CustomLink>

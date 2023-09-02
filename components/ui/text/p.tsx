@@ -1,5 +1,5 @@
 const P = ({
-	className,
+	className = "",
 	children,
 	align = "text-left",
 }: {
@@ -7,7 +7,7 @@ const P = ({
 	children: React.ReactNode;
 	align?: string;
 }) => {
-	const classNames = `text-black ${className} ${align}`;
+	const classNames = `text-lg text-black ${className} ${align}`;
 	return <p className={classNames}>{children}</p>;
 };
 

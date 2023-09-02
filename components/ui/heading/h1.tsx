@@ -1,11 +1,11 @@
 const H1 = ({
-	className = "text-4xl md:text-6xl font-bold  text-center text-black",
+	className = "",
 	children,
 }: {
 	className?: string;
 	children: React.ReactNode;
 }) => {
-	const classNames = `${className}`;
+	const classNames = `text-4xl md:text-8xl font-bold  text-center text-black ${className}`;
 	return <h1 className={classNames}>{children}</h1>;
 };
 
