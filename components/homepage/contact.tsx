@@ -33,7 +33,7 @@ const Contact = () => {
 							src="/pin-map.svg"
 						/>
 						<P className="ml-0 md:ml-2">
-							Ligywijk 123, 8900 Ieper, Belgium
+							Ligywijk 123, 8900 Ieper, België
 						</P>
 					</Link>
 
