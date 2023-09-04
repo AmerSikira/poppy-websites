@@ -14,6 +14,13 @@ const Menu = ({ children }: { children: React.ReactNode }) => {
 	const handleOpen = () => {
 		setOpen((curr) => !curr);
 	};
+
+	const handleClickLink = (e: any) => {
+		if (e.target.tagName === "A") {
+			setOpen(false);
+		}
+	};
+
 	return (
 		<>
 			<span className="sr-only md:hidden" onClick={handleOpen}>
@@ -23,6 +30,7 @@ const Menu = ({ children }: { children: React.ReactNode }) => {
 			<nav
 				className={`${visible} sm:relative md:flex md:flex-row md:justify-between md:items-center md:gap-4`}
 				style={provisionalStyle}
+				onClick={handleClickLink}
 			>
 				{children}
 			</nav>

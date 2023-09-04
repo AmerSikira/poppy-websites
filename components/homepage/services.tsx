@@ -17,9 +17,7 @@ const Services = () => {
 
 				<FlexRow className="gap-10">
 					<Card>
-						<H3 className="w-full text-center">
-							Functioneel design
-						</H3>
+						<H3 className="w-full text-left">Functioneel design</H3>
 						<P align="text-justify">
 							Onze website ontwerper zorgt voor een mix tussen
 							<strong> trendy en tijdloos design</strong>. Zo ziet
@@ -29,7 +27,7 @@ const Services = () => {
 					</Card>
 
 					<Card>
-						<H3 className="w-full text-center">
+						<H3 className="w-full text-left">
 							Klantegerichte teksten
 						</H3>
 						<P align="text-justify">
@@ -44,7 +42,7 @@ const Services = () => {
 					</Card>
 
 					<Card>
-						<H3 className="w-full text-center">
+						<H3 className="w-full text-left">
 							Gestructureerde website
 						</H3>
 						<P align="text-justify">
