@@ -5,6 +5,7 @@ import { Rubik } from "next/font/google";
 import Logo from "@/components/header/logo";
 import Navigation from "@/components/header/navigation";
 import Script from "next/script";
+import Footer from "@/components/footer";
 
 const rubik = Rubik({ subsets: ["latin"] });
 
@@ -36,6 +37,7 @@ export default function RootLayout({
 					<Navigation />
 				</Header>
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);

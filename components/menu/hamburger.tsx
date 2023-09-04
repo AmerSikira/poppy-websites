@@ -7,9 +7,9 @@ const Hamburger = ({ onClick }: { onClick: () => void }) => {
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 10 10"
 			stroke="#000"
-			stroke-width="1"
+			strokeWidth="1"
 			fill="rgba(0,0,0,0)"
-			stroke-linecap="round"
+			strokeLinecap="round"
 			onClick={onClick}
 		>
 			<path d="M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7">

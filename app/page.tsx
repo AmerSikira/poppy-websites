@@ -8,8 +8,9 @@ import Experts from "@/components/homepage/experts";
 import LastCTA from "@/components/homepage/last-cta";
 
 import { Metadata } from "next";
+import Contact from "@/components/homepage/contact";
 
-export const metadata = {
+export const metadata: Metadata = {
 	title: "Poppy Websites - Webdesign en webteksten",
 	description: "Grootse websites voor kleine bedrijven",
 	openGraph: {
@@ -29,6 +30,7 @@ export default function Home() {
 			<OtherServices />
 			<Experts />
 			<LastCTA />
+			<Contact />
 		</>
 	);
 }

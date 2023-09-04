@@ -15,6 +15,11 @@ const config: Config = {
 			},
 			boxShadow: {
 				"3xl": "3px 3px 0px 0px rgba(0, 0, 0, 1)",
+				"3xl-red": "3px 3px 0px 0px #ef4444",
+			},
+			dropShadow: {
+				"3xl": "3px 3px 0px black",
+				"3xl-red": "3px 3px 0px #ef4444",
 			},
 			minHeight: {
 				half: "50vh",
