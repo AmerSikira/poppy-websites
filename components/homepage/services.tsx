@@ -5,7 +5,7 @@ import H2 from "../ui/heading/h2";
 import Card from "../ui/card/card";
 import H3 from "../ui/heading/h3";
 import P from "../ui/text/p";
-import SecondaryCta from "../ui/button/secondary-cta";
+import Cta from "../ui/button/cta";
 
 const Services = () => {
 	return (
@@ -55,7 +55,7 @@ const Services = () => {
 				</FlexRow>
 
 				<FlexRow className="justify-center mt-10">
-					<SecondaryCta>Bespreek de mogelijkheden</SecondaryCta>
+					<Cta>Bespreek de mogelijkheden</Cta>
 				</FlexRow>
 			</Container>
 		</HomepageSection>

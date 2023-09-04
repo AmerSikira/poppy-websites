@@ -40,9 +40,7 @@ const Testimonials = () => {
 					image="/kjell.png"
 					name="Kjell Vandevyvere"
 					title="Mede-oprichter Poppy Websites"
-					text="Er zijn enkele goede websiteontwerpers in Ieper maar ze
-						zitten niet op het niveau van de grote bureaus waar ik
-						normaal mee werk. Dat verandert nu."
+					text="Naast mede-oprichter van Poppy Websites ben ik freelance digital marketeer voor fintech bedrijven. Dus goten we mijn website ook in een nieuw jasje."
 					link="https://kjellvandevyvere.be"
 					linkText="kjellvandevyvere.be"
 				/>

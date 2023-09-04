@@ -51,9 +51,9 @@ const OtherServices = () => {
 
 				<Card className="justify-between">
 					<FlexRow className="w-full items-center content-center relative">
-						<h3 className="text-2xl font-bold text-black">
-							Content marketing strategie
-						</h3>
+						<H3 className="text-2xl font-bold text-black">
+							Content marketing
+						</H3>
 					</FlexRow>
 					<P className="mt-10" align="text-justify">
 						Wil je meer spreken over je bedrijf via blogs of sociale
