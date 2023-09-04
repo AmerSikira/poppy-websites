@@ -21,7 +21,7 @@ const Contact = () => {
 			</Container>
 
 			<Container>
-				<FlexRow className="justify-center">
+				<FlexRow className="justify-left md:justify-center">
 					<Link
 						href="https://www.google.com/maps?sca_esv=562567314&output=search&q=Ligywijk+123,+8900+Ieper,+Belgium&source=lnms&entry=mc&sa=X&ved=2ahUKEwiw7-KRspGBAxVTzQIHHW8FD1sQ0pQJegQIChAB"
 						className="flex flex-row items-center content-center hover:text-red-900 hover:underline transition-all"
@@ -32,14 +32,14 @@ const Contact = () => {
 							height={25}
 							src="/pin-map.svg"
 						/>
-						<P className="ml-2 ">
+						<P className="ml-0 md:ml-2">
 							Ligywijk 123, 8900 Ieper, Belgium
 						</P>
 					</Link>
 
 					<Link
 						href="tel:+32456181764"
-						className="flex flex-row items-center content-center hover:text-red-900 hover:underline transition-all ml-5"
+						className="flex flex-row items-center content-center hover:text-red-900 hover:underline transition-all ml-0 md:ml-5  mt-5 md:mt-0"
 					>
 						<Image
 							alt="Phone"
@@ -47,12 +47,12 @@ const Contact = () => {
 							height={25}
 							src="/telephone.svg"
 						/>
-						<P className="ml-2 ">+32 456 18 17 64</P>
+						<P className="ml-0 md:ml-2">+32 456 18 17 64</P>
 					</Link>
 
 					<Link
 						href="mailto:hallo@poppywebsites.be"
-						className="flex flex-row items-center content-center hover:text-red-900 hover:underline transition-all ml-5"
+						className="flex flex-row items-center content-center hover:text-red-900 hover:underline transition-all ml-0 md:ml-5 mt-5 md:mt-0"
 					>
 						<Image
 							alt="Email"
@@ -64,7 +64,10 @@ const Contact = () => {
 					</Link>
 				</FlexRow>
 
-				<FlexRow className="justify-center mt-5">
+				<FlexRow
+					className="justify-left md:justify-center mt-5"
+					remainRow={true}
+				>
 					<Link
 						href="https://linkedin.com/company/poppywebsitesbe/"
 						className="flex flex-row items-center content-center hover:text-red-900 hover:underline transition-all"
