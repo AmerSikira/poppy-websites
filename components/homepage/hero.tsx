@@ -22,7 +22,7 @@ const Hero = () => {
 						Krijg een prachtige website op maat van jouw doelgroep.
 						Geen gedoe. Snel klaar.
 					</Subheading>
-					<Cta>Bespreek de mogelijkheden</Cta>
+					<Cta>Bespreek jouw wensen</Cta>
 
 					<FlexRow className="items-center content-center mt-10 ">
 						<FlexRow className="items-center content-center">

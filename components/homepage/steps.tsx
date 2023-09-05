@@ -76,7 +76,7 @@ const Steps = () => {
 			</Container>
 			<Container>
 				<FlexRow className="justify-center mb-10 mt-10 md:mt-0">
-					<Cta>Bespreek de mogelijkheden</Cta>
+					<Cta>Bespreek jouw wensen</Cta>
 				</FlexRow>
 			</Container>
 		</HomepageSection>

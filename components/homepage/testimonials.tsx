@@ -47,7 +47,7 @@ const Testimonials = () => {
 			</Container>
 			<Container>
 				<FlexRow className="justify-center mt-10">
-					<SecondaryCta>Bespreek de mogelijkheden</SecondaryCta>
+					<SecondaryCta>Bespreek jouw wensen</SecondaryCta>
 				</FlexRow>
 			</Container>
 		</HomepageSection>

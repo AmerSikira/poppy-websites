@@ -23,7 +23,7 @@ const LastCTA = () => {
 				</FlexColumn>
 
 				<FlexRow className="justify-center mt-10">
-					<Cta>Bespreek de mogelijkheden</Cta>
+					<Cta>Bespreek jouw wensen</Cta>
 				</FlexRow>
 
 				<FlexRow className="items-center content-center mt-10">
