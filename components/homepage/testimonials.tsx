@@ -3,7 +3,7 @@ import Container from "../layout/container";
 import FlexRow from "../layout/flex-row";
 import H2 from "../ui/heading/h2";
 import Testimonial from "../ui/card/testimonial";
-import SecondaryCta from "../ui/button/secondary-cta";
+import Cta from "../ui/button/cta";
 
 const Testimonials = () => {
 	return (
@@ -47,7 +47,7 @@ const Testimonials = () => {
 			</Container>
 			<Container>
 				<FlexRow className="justify-center mt-10">
-					<SecondaryCta>Bespreek jouw wensen</SecondaryCta>
+					<Cta>Bespreek jouw wensen</Cta>
 				</FlexRow>
 			</Container>
 		</HomepageSection>
