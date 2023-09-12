@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: "Poppy Websites - Design",
 		description: "Laat je bedrijf stralen op alle online kanalen",
+		images: ["./design.png"],
 	},
 };
 

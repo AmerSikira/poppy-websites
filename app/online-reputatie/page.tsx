@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: "Poppy Websites - Online reputatie optimaliseren",
 		description: "Verzorg je andere online kanalen",
+		images: ["./online-reputatie.png"],
 	},
 };
 
