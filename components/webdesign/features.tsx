@@ -18,7 +18,7 @@ const Features = () => {
 				<FlexRow className="gap-10">
 					<Card>
 						<H3 className="w-full text-left">
-							Websites met een functioneel design
+							Website designs die kloppen
 						</H3>
 						<P align="text-justify">
 							De website voor je bedrijf mag er zeker mooi uitzien
@@ -32,7 +32,7 @@ const Features = () => {
 
 					<Card>
 						<H3 className="w-full text-left">
-							Teksten die je klanten aanspreken
+							Teksten op maat van je klanten
 						</H3>
 						<P align="text-justify">
 							Als ondernemer wil je natuurlijk graag over jezelf
@@ -50,7 +50,7 @@ const Features = () => {
 
 					<Card>
 						<H3 className="w-full text-left">
-							Overzichtelijke structuur voor optimaal gebruik
+							Optimaal gebruiksgemak
 						</H3>
 						<P align="text-justify">
 							Bij een goede website gaat het niet enkel om design
