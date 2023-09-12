@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 	},
 };
 
-export default function Deesign() {
+export default function Design() {
 	return (
 		<>
 			<Hero />
