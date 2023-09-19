@@ -14,15 +14,15 @@ const PrivacyPolicy = () => {
 				<Container>
 					<H2>Privacybeleid</H2>
 					<P>
-						Dit privacybeleid geldt voor de websites
+						{`Dit privacybeleid geldt voor de websites
 						"poppywebsites.be" en "blog.poppywebsites.be," beheerd
-						door:
+						door:`}
 					</P>
 					<P className="mt-5">
 						<strong>Volledige juridische naam:</strong> Vandevyvere,
 						Kjell <br />
-						<strong>Adres:</strong> Ligywijk 123, 8900 Ieper, België{" "}
-						<br />
+						<strong>Adres:</strong> Ligywijk 123, 8900 Ieper,{" "}
+						{`België`} <br />
 						<strong>E-mail:</strong> hallo@poppywebsites.be <br />
 						<strong>Telefoon:</strong> +32456181764
 					</P>
@@ -89,9 +89,9 @@ const PrivacyPolicy = () => {
 
 					<H3 className="mt-10">Opt-out van Google Analytics</H3>
 					<P className="mt-5">
-						Je kan ervoor kiezen om niet te worden gevolgd door
+						{`Je kan ervoor kiezen om niet te worden gevolgd door
 						Google Analytics door op "Alles weigeren" te klikken op
-						de GDPR-banner die op onze websites wordt weergegeven.
+						de GDPR-banner die op onze websites wordt weergegeven.`}
 					</P>
 
 					<H3 className="mt-10">Beveiligingsmaatregelen</H3>
