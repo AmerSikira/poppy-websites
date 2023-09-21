@@ -5,6 +5,7 @@ import FlexColumn from "@/components/layout/flex-column";
 import P from "../text/p";
 import CustomLink from "../link";
 import H6 from "../heading/h6";
+import Image from "next/image";
 
 const Testimonial = ({
 	image,
@@ -24,7 +25,10 @@ const Testimonial = ({
 	return (
 		<Card>
 			<FlexRow className="w-full items-center content-center relative">
-				<img
+				<Image
+					alt="Profile image"
+					width={50}
+					height={50}
 					className="rounded-full h-12 w-12 flex object-cover border-2 border-black shadow-3xl"
 					src={image}
 				/>
