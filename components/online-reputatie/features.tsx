@@ -39,13 +39,13 @@ const Features = () => {
 							Reageren op slechte reviews
 						</H3>
 						<P align="text-justify">
-							Hoe goed je ook je best doet, je zal altijd klanten
+							{`Hoe goed je ook je best doet, je zal altijd klanten
 							hebben die niet zo tevreden zijn. Soms kan het eens
 							gebeuren dat zo'n klant zijn mening deelt via Google
 							reviews of een website zoals Trustpilot. In zo’n
 							geval staan we je bij met advies om correct om te
 							gaan met de situatie, gelijkaardige problemen te
-							vermijden en beleefd te antwoorden.
+							vermijden en beleefd te antwoorden.`}
 						</P>
 					</Card>
 				</FlexRow>
