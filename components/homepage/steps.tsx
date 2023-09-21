@@ -41,7 +41,7 @@ const Steps = () => {
 							<FlexColumn className="ml-10">
 								<H3 className="mb-2">Voorstel overleggen</H3>
 								<P>
-									Zodra we van jouw de nodige informatie
+									Zodra we van jou de nodige informatie
 									ontvangen, gaan we aan de slag. Binnen de
 									twee weken ontvang je een voorstel voor de
 									structuur, het ontwerp en de tekst.
@@ -75,7 +75,7 @@ const Steps = () => {
 				</FlexRow>
 			</Container>
 			<Container>
-				<FlexRow className="justify-center mb-10 mt-10 md:mt-0">
+				<FlexRow className="justify-center mb-10 mt-10">
 					<Cta>Bespreek jouw wensen</Cta>
 				</FlexRow>
 			</Container>

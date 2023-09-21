@@ -11,10 +11,10 @@ const Hero = () => {
 		<>
 			<HomepageSection className="relative">
 				<Container className="flex flex-col justify-center items-center py-[10rem] md:py-20 md:h-screen">
-					<P className="uppercase text-sm font-bold">
+					<P className="uppercase text-sm font-bold my-5">
 						Online reputatie optimaliseren
 					</P>
-					<H1>Verzorg je andere online kanalen</H1>
+					<H1>Verzorg je contactinfo en imago op online kanalen</H1>
 					<Subheading>
 						Krijg hulp bij het vervolledigen en beheer van je
 						profiel op andere websites, zoals je Google

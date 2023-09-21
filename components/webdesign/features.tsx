@@ -21,12 +21,12 @@ const Features = () => {
 							Website designs die kloppen
 						</H3>
 						<P align="text-justify">
-							De website voor je bedrijf mag er zeker mooi uitzien
+							{`De website voor je bedrijf mag er zeker mooi uitzien
 							maar hij moet vooral praktisch zijn. Bij het design
 							ervan denken we dan ook goed na over de kleuren,
 							contrasten en animaties. Het mag leuk en trendy zijn
 							zolang het gebruiksgemak er niet onder lijdt. En dat
-							zal bij ons niet gebeuren.
+							zal bij ons niet gebeuren.`}
 						</P>
 					</Card>
 
@@ -35,16 +35,7 @@ const Features = () => {
 							Teksten op maat van je klanten
 						</H3>
 						<P align="text-justify">
-							Als ondernemer wil je natuurlijk graag over jezelf
-							praten op je website. “Wij hebben jaren ervaring”.
-							“Wij zijn experts in…”. Maar voor een klant maakt
-							dat allemaal niet zo veel uit. Nemen ze Bedrijf A
-							omdat zij drie jaar meer ervaring hebben dan Bedrijf
-							B? Natuurlijk niet. Klanten kiezen voor de partner
-							die hen beste begrijpt. Daarom moeten de teksten op
-							je website gericht zijn op je klanten. We gaan dus
-							samen op zoek naar teksten die je klanten meteen
-							aanspreken.
+							{`Als ondernemer wil je natuurlijk graag vertellen waar je de beste in bent. Maar eigenlijk willen klanten niet weten hoeveel ervaring je hebt of wat je van jezelf denkt. Klanten willen horen wat anderen over je denken, hoe je hun problemen kan oplossen of welke leuke ervaring je hen kan aanbieden. Dus denken we samen over de wensen van jouw klanten en hoe we jouw oplossingen duidelijk kunnen communiceren.`}
 						</P>
 					</Card>
 
@@ -53,15 +44,14 @@ const Features = () => {
 							Optimaal gebruiksgemak
 						</H3>
 						<P align="text-justify">
-							Bij een goede website gaat het niet enkel om design
-							en tekst maar ook om structuur. Welke informatie
-							willen je klanten eerst zien? Welke pagina’s heb je
-							nodig? Heb je wel meer dan één pagina nodig? Het
-							lijkt simpel maar er wordt helaas niet veel over
-							nagedacht. Dat doen wij net wel. Wij nemen het doel
-							van jouw website als basis en bouwen daar een
-							structuur rond die we daarna invullen met goede
-							teksten en een passend design.
+							{`Voor een professionele website is structuur net zo
+							belangrijk als tekst en design. Welke informatie
+							willen je klanten eerst lezen? En hoe breng je die
+							informatie duidelijk over? Een goede structuur
+							maken, lijkt simpel maar het wordt vaak onderschat.
+							Daarom stellen wij eerst een structuur op waarbij we
+							focussen op de gebruikerservaring van je klanten.
+							Dan vullen we aan met tekst en design.`}
 						</P>
 					</Card>
 				</FlexRow>

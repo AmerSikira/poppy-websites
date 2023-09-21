@@ -27,10 +27,7 @@ const Steps = () => {
 							<FlexColumn className="ml-10">
 								<H3 className="mb-2">Wensen bespreken</H3>
 								<P>
-									We komen samen om jou te leren kennen, het
-									doel van je website te bepalen en jouw
-									voorkeuren op vlak van kleur en design te
-									bespreken.
+									{`We komen samen om jou te leren kennen zodat we kunnen inschatten hoe klanten online omgaan met jouw bedrijf.`}
 								</P>
 							</FlexColumn>
 						</FlexRow>
@@ -42,10 +39,7 @@ const Steps = () => {
 							<FlexColumn className="ml-10">
 								<H3 className="mb-2">Voorstel overleggen</H3>
 								<P>
-									Zodra we van jou de nodige informatie
-									ontvangen, gaan we aan de slag. Binnen de
-									twee weken ontvang je een voorstel voor de
-									structuur van je website en je designs.
+									{`We stellen een plan op met de belangrijkste kanalen, de informatie die je wil delen, en passende teksten die in lijn liggen met jouw schrijfstijl.`}
 								</P>
 							</FlexColumn>
 						</FlexRow>
@@ -55,13 +49,13 @@ const Steps = () => {
 								3
 							</div>
 							<FlexColumn className="ml-10">
-								<H3 className="mb-2">Website afwerken</H3>
+								<H3 className="mb-2">Reputatie hoog houden</H3>
 								<P>
-									Als je vlot feedback levert, kunnen we de
-									website en bijkomende sjablonen snel
-									opleveren. Doorgaans duurt een project
-									slechts zes tot acht weken van begin tot
-									einde.
+									Na feedback vullen we jouw profielen aan en
+									zorgen we er ook voor dat de informatie up
+									to date blijft. We kijken ook regelmatig of
+									er nieuwe mogelijkheden of kanalen zijn om
+									je bedrijf in de kijker te zetten.
 								</P>
 							</FlexColumn>
 						</FlexRow>

@@ -11,7 +11,7 @@ const Hero = () => {
 		<>
 			<HomepageSection className="relative">
 				<Container className="flex flex-col justify-center items-center py-[10rem] md:py-20 md:h-screen">
-					<P className="uppercase text-sm font-bold">
+					<P className="uppercase text-sm font-bold my-5">
 						Webdesign en webteksten
 					</P>
 					<H1>

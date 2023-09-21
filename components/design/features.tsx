@@ -34,12 +34,12 @@ const Features = () => {
 							Templates voor alle kanalen
 						</H3>
 						<P align="text-justify">
-							Op basis van je logo en website ontwikkelen we
+							{`Op basis van je logo en website ontwikkelen we
 							logo's en sjablonen voor je communicatiekanalen.
 							Denk aan je Facebook logo, Instagram posts en
 							foldertjes. Door makkelijk te bewerken sjablonen te
 							gebruiken, heb je veel minder werk en ziet je
-							communicatie er altijd stralend uit.
+							communicatie er altijd stralend uit.`}
 						</P>
 					</Card>
 

@@ -24,7 +24,8 @@ const Footer = () => {
 				<Container className="py-5">
 					<FlexRow className="justify-center items-center content-center">
 						<P className="text-white">
-							All Right Reserved | Poppy Websites 2023
+							All Right Reserved | Poppy Websites 2023 |
+							BE0777.497.263
 						</P>
 					</FlexRow>
 				</Container>

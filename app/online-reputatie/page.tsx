@@ -1,5 +1,5 @@
 import LastCTA from "@/components/homepage/last-cta";
-import Steps from "@/components/homepage/steps";
+import Steps from "@/components/online-reputatie/steps";
 import Testimonials from "@/components/homepage/testimonials";
 import Features from "@/components/online-reputatie/features";
 import Hero from "@/components/online-reputatie/hero";
