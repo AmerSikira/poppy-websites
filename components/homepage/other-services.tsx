@@ -29,7 +29,9 @@ const OtherServices = () => {
 						reviews.
 					</P>
 					<P className="w-full mt-3">
-						<CustomLink href="#">Meer info</CustomLink>
+						<CustomLink href="/online-reputatie">
+							Meer info
+						</CustomLink>
 					</P>
 				</Card>
 
@@ -45,7 +47,7 @@ const OtherServices = () => {
 						alle kanalen.
 					</P>
 					<P className="w-full mt-3">
-						<CustomLink href="#">Meer info</CustomLink>
+						<CustomLink href="/design">Meer info</CustomLink>
 					</P>
 				</Card>
 
