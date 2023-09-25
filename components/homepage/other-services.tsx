@@ -9,7 +9,7 @@ import CustomLink from "../ui/link";
 
 const OtherServices = () => {
 	return (
-		<HomepageSection>
+		<HomepageSection id="aanvullende-diensten">
 			<Container>
 				<FlexRow className="justify-center mb-10">
 					<H2>Hulp nodig met andere online diensten?</H2>

@@ -16,7 +16,7 @@ const Hero = () => {
 					</P>
 					<H1>
 						Grootse websites <br className="hidden lg:inline" />
-						voor kleine bedrijven
+						voor ambitieuze {`kmo's`}
 					</H1>
 					<Subheading>
 						Krijg een prachtige website op maat van jouw doelgroep.

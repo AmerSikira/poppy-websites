@@ -5,7 +5,8 @@ const Navigation = () => {
 	return (
 		<Menu>
 			<MenuItem text="Over ons" href="/#over-ons" />
-			<MenuItem text="Diensten" href="/#diensten" />
+			<MenuItem text="Web Design" href="/webdesign" />
+			<MenuItem text="Diensten" href="/#aanvullende-diensten" />
 			<MenuItem text="Contact" href="/#contact" />
 		</Menu>
 	);
