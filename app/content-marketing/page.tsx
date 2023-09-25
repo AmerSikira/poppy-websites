@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 	},
 };
 
-export default function OnlineReputatie() {
+export default function ContentMarketing() {
 	return (
 		<>
 			<Hero />
