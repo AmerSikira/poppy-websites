@@ -1,8 +1,8 @@
 import LastCTA from "@/components/homepage/last-cta";
-import Steps from "@/components/online-reputatie/steps";
+import Steps from "@/components/content-marketing/steps";
 import Testimonials from "@/components/homepage/testimonials";
-import Features from "@/components/online-reputatie/features";
-import Hero from "@/components/online-reputatie/hero";
+import Features from "@/components/content-marketing/features";
+import Hero from "@/components/content-marketing/hero";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: "Poppy Websites - Online reputatie optimaliseren",
 		description: "Verzorg je andere online kanalen",
-		images: ["./online-reputatie.png"],
+		images: ["./content-marketing.png"],
 	},
 };
 

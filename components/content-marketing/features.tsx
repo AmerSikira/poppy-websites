@@ -32,16 +32,9 @@ const Features = () => {
 
 					<Card>
 						<H3 className="w-full text-left">
-							Consistentie met kleuren & vormen
+							Alles in eigen handen
 						</H3>
-						<P align="text-justify">
-							Bij de oplevering van je website krijg je een
-							branding gids. Daarin staan de gekozen kleuren,
-							vormen en lettertypes. Dankzij deze gids en de
-							sjablonen kan je zelf makkelijk aan de slag met je
-							visuele communicatie zonder dat het een kakofonie
-							van kleuren en vormen wordt.
-						</P>
+						<P align="text-justify">Needs copy</P>
 					</Card>
 				</FlexRow>
 
